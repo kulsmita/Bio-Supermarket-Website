@@ -1,0 +1,410 @@
+body{
+ background-color: #938D73;
+ margin:0px;
+ font-family: arial;    
+    
+}
+
+header{
+  width:100%;
+  height: auto;
+    overflow: auto;
+  background-color: #AF7144;
+    box-shadow: 0px 10px 60px #545460;
+}
+
+
+header img{
+    
+    width: 100%;
+    height: auto;
+    }
+
+nav{
+ width: 100%;
+ height: 60px;    
+    
+}
+
+#container{
+  width: 960px;  
+  height: auto;
+    overflow: auto;
+  background-color:#D18A54;  
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #303038;
+    font-size: 12px;
+}
+
+#spalte_links_kontakt,
+#spalte_links{
+    
+    width: 280px;
+    padding:0 20px;
+    float: left;
+    height: auto;
+}
+
+#spalte_mitte{
+    
+    width: 280px;
+    padding:0 20px;
+    float: left;
+    height: auto;
+    
+}
+
+
+
+#doppelspalte{
+    
+    width: 600px;
+    padding:0 20px;
+    float: left;
+    height: auto;
+    
+}
+
+
+aside{
+    
+    width: 280px;
+    padding:0 20px; 
+    float: right;
+    height: auto;
+}
+
+
+
+nav ul{
+    float: left;
+    
+    }
+
+nav li{
+    
+    float: left;
+    list-style-type: none;
+    margin-right: 35px;
+    color: #46403e;
+    font-weight:bold;
+    
+}
+
+a:link {
+    
+    color: #545460;
+    text-decoration: none;
+
+
+}
+
+a:visited{
+    
+ color: #545460;
+    text-decoration: none;
+}
+
+a:hover{
+    
+    color: #a78e7b;
+    text-decoration: none;
+
+
+}
+
+a:active{
+    
+    color: #636758;
+    text-decoration: none;
+}
+
+
+img{
+    
+    padding-bottom: 20px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    background-color: #AF7144;
+    box-shadow: 0px -10px 60px #545460;
+}
+
+#inhalt_footer{
+    
+    width:960px;
+    height: auto;
+    overflow: auto;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+     color: #303038;
+    
+}
+
+#links{
+    
+    width:160px;
+    float: left;
+    margin-left: 100px;
+    margin-right: 60px;
+    
+}
+
+#mitte{
+    
+    width:160px;
+    float: left;
+    margin-left: 120px;
+    margin-right: 40px;
+    
+}
+
+
+#rechts{
+    
+    width:160px;
+    float: left;
+    margin-left: 120px;
+    margin-right: 40px;
+    
+}
+section{
+    float: left;
+    border-top: 1px solid #48476c;
+    text-align: justify;
+}
+
+
+.produktbilder{
+    float: left;   
+    padding:17px 20px 12px 0;
+    
+}
+
+article ul{
+  padding-left:  0px;
+    
+}
+
+article ul li{
+    
+   list-style-type:none;
+    line-height: 22px;
+}
+
+
+.h_section{
+
+    float: right;
+    font-weight: 700;
+    
+}
+
+
+label{
+    width:80px;
+    float: left;
+    
+}
+
+input{
+    width: 120px;
+    color: #8e674b;
+    background-color: #f7e5d9;
+    margin-right: 10px;
+}
+
+#hausnummer{
+   width: 20px;
+}
+ 
+
+#form_content{
+    width: 600px;
+    height: auto;
+    overflow: auto;
+    
+}
+
+
+#form_left{
+    width: 280px;
+    float: left;
+    margin-bottom: 80px;
+   
+    
+}
+
+
+#form_right{
+    width: 280px;
+    float: right;
+
+    }
+
+textarea{
+    width:274px;
+    height: 180px;
+    color: #8e674b;
+    background-color: #f7e5d9;
+}
+
+
+select{
+    
+   color: #8e674b;
+    background-color: #f7e5d9; 
+}
+
+#sendebutton{
+    
+    margin-left: 80px;
+    width: 128px;
+    
+}
+
+
+.trennlinie_oben{
+    
+margin-top: 20px;
+    border-top: 1px solid #48476c;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+table{
+    
+    width: 600px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+
+.abbildung{
+    width: 60px;
+    height: 26px;
+    
+}
+
+
+.zelle{
+    height: 60px;
+    padding: 0px;
+    
+}
+
+td{
+   
+   padding-left: 20px;
+    background-color:#e3c7b1; 
+    margin-top: 20px;
+    
+}
+
+td img{
+    width:60px;
+    height:60px;
+    padding: inherit;
+   
+}
+
+.ueberschrift{
+   background-color: #938D73;  
+       
+}
+
+td,th{
+    border-radius: 5px;
+}
+
+
+.impressum{
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width:1024px){
+    header{box-shadow:0px 0px 0px #545460; }
+    nav{height:40px; font-size: 1.2em;}
+    #container{width:100%; margin-top: 0px; font-size: 1em;}
+    #spalte_links,
+    #spalte_mitte, 
+    aside{ width:29%; padding: 0 2%;}
+    footer{ box-shadow: 0px 0px 0px #545460; height: auto;overflow: auto;}
+    h2{font-size: 1.8em;}
+    h4{font-size: 1.6em;margin-top: 0.6em;}
+    #inhalt_footer{width: 100%; font-size: 0.8em; height: auto;overflow: auto;}
+    #links{ width: 20%; margin-left: 9%; margin-right: 3%; }
+    #mitte{ width: 20%; margin-left: 11%; margin-right: 3%; }
+    #rechts{ width: 20%; margin-left: 11%; margin-right: 3%; }
+    #doppelspalte{width: 96%; padding: 0 2%;}
+   #aside_produkte,
+    #aside_preise{width: 96%; padding: 0 2%; margin-top: 40px;
+     text-align: justify;}
+    table{width: 100%;}
+    #spalte_links_kontakt{width: 96%; padding: 0 2%; }
+   
+    #form_left,
+    #form_right{width: 100%; float: none; margin-bottom:7em;}
+     label{width: 9em;}
+    input{width: 14em; height: 1.6em;font-size: 1em;}
+    hausnummer{width: 2.5em;}
+    select{width: 14em; height: 1.6em;font-size: 1em;}
+    textarea{width: 30em;height: 20em;}
+    article ul li{line-height: 2em;font-weight: 700;}
+    .trennlinie_oben{margin-top: 2em; margin-bottom: 4em; padding-top: 2em;}
+    #sendebutton{margin: 0em;}
+}
+
+
+
+
+@media only screen and (max-width:768px){
+    #spalte_links,
+    #spalte_mitte,
+    aside{width: 96%; padding: 0 2%; }
+    article img{margin-bottom: 80px;}
+    video{margin-bottom: 40px;}
+    header img{width: 0px; height: 0px;}
+    nav{height: auto; overflow: auto; float: none;}
+    nav li{margin-bottom: 40px;margin-right: 0; float: none;}
+    nav ul,
+    nav li{float: none;}
+    footer,
+    #inhalt_footer{height: auto;overflow: auto;}
+    #links,
+    #mitte,
+    #rechts{float: none; margin-left: 0; margin-right: 0;margin-bottom: 40px; padding-left: 2%;}
+   
+    
+}
+
+@media only screen and (max-width:480px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
